@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: hello-snamy/test3
+  branch: main
+  base_url: https://suresh-issue-82.dcycleproject.org
+  auth_endpoint: auth/github/68bc4df5ed404407b8afb4a2
+
+media_folder: "static/uploads"   # where uploads are committed in the repo
+public_folder: "/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "body", label: "Body", widget: "markdown" }
