@@ -3,4 +3,4 @@ backend:
   repo: hello-snamy/test3
   branch: main
   base_url: https://suresh-issue-82.dcycleproject.org
-  auth_endpoint: /auth/github/repo/691a34a40eab6369e826479c
+  auth_endpoint: /auth/github/repo/691a35870eab6369e826486d
